@@ -1,0 +1,7 @@
+We will maintain a minheap of size 10.
+Insert first 10 values.
+From the 10 numbers we will compare each number with the root node of min heap(ie the min value).
+If the number is greater than the root node's value, we will pop the root node and insert the new number.
+If the number is smaller than the root node's value, we will simply continue to the next number.
+After traversing all the numbers, the minheap will contain the largest 10 numbers.
+TC : 10Million*log(10) 
